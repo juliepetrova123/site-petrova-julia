@@ -12,12 +12,12 @@ const App = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<MainPage />} />
-                <Route path="/homeworks" element={<Homeworks />} />
-                <Route path="/homework-first" element={<HomeworkFirstPage />} />
-                <Route path="/homework-second" element={<HomeworkSecondPage />} />
-                <Route path="/homework-third" element={<HomeworkThirdPage />} />
-                <Route path="/curse-work" element={<CurseWorkPage />} />
+                <Route path="/site-petrova-julia" element={<MainPage />} />
+                <Route path="/site-petrova-julia/homeworks" element={<Homeworks />} />
+                <Route path="/site-petrova-julia/homework-first" element={<HomeworkFirstPage />} />
+                <Route path="/site-petrova-julia/homework-second" element={<HomeworkSecondPage />} />
+                <Route path="/site-petrova-julia/homework-third" element={<HomeworkThirdPage />} />
+                <Route path="/site-petrova-julia/curse-work" element={<CurseWorkPage />} />
             </Routes>
         </Router>
     );

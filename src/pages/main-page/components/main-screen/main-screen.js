@@ -13,7 +13,7 @@ const MainScreen = () => {
             />
             <img
                 className="main-page-main-screen-image main-page-main-screen-image_mobile"
-                src="/images/main-background.jpg"
+                src="./images/main-background.jpg"
                 alt="background"
                 loading="lazy"
                 decoding="async"

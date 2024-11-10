@@ -21,9 +21,9 @@ const Menu = () => {
             <div className="desktop-menu">
                 <nav>
                     <ul className="menu">
-                        <li id={0}><a href="/">Главная</a></li>
-                        <li id={1}><a href="homeworks">Домашние работы</a></li>
-                        <li id={2}><a href="curse-work">Курсовая работа</a></li>
+                        <li id={0}><a href="/site-petrova-julia">Главная</a></li>
+                        <li id={1}><a href="/site-petrova-julia/homeworks">Домашние работы</a></li>
+                        <li id={2}><a href="/site-petrova-julia/curse-work">Курсовая работа</a></li>
                     </ul>
                 </nav>
             </div>
@@ -36,9 +36,9 @@ const Menu = () => {
                 {isMenuOpen && (
                     <nav className="menu-hamburger">
                         <ul>
-                            <li id={0}><a href="/">Главная</a></li>
-                            <li id={1}><a href="homeworks">Домашние работы</a></li>
-                            <li id={2}><a href="curse-work">Курсовая работа</a></li>
+                            <li id={0}><a href="/site-petrova-julia">Главная</a></li>
+                            <li id={1}><a href="/site-petrova-julia/homeworks">Домашние работы</a></li>
+                            <li id={2}><a href="/site-petrova-julia/curse-work">Курсовая работа</a></li>
                         </ul>
                     </nav>
                 )}
