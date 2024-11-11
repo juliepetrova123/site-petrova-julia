@@ -17,7 +17,7 @@ const App = () => {
                 <Route path="/homework-first" element={<HomeworkFirstPage />} />
                 <Route path="/homework-second" element={<HomeworkSecondPage />} />
                 <Route path="/homework-third" element={<HomeworkThirdPage />} />
-                <Route path="/curse-work" element={<CurseWorkPage />} />
+                <Route path="/site-petrova-julia/curse-work" element={<CurseWorkPage />} />
             </Routes>
         </HashRouter>
     );
