@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { MainPage } from './pages/main-page/main-page';
 import { Homeworks } from './pages/homeworks-page/homeworks-page';
 import { HomeworkFirstPage } from './pages/homework-first-page/homework-first-page';
