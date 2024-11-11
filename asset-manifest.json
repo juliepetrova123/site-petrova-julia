@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/site-petrova-julia/static/css/main.ecf5935c.css",
-    "main.js": "/site-petrova-julia/static/js/main.c3c449ab.js",
+    "main.js": "/site-petrova-julia/static/js/main.48f798f0.js",
     "static/media/pic-1.jpg": "/site-petrova-julia/static/media/pic-1.0c159c1131f1d86041ef.jpg",
     "static/media/pic-2.jpg": "/site-petrova-julia/static/media/pic-2.1a622425e57a0d346543.jpg",
     "static/media/pic-3.jpg": "/site-petrova-julia/static/media/pic-3.fc7d3ef37338e8d8bf62.jpg",
     "index.html": "/site-petrova-julia/index.html",
     "main.ecf5935c.css.map": "/site-petrova-julia/static/css/main.ecf5935c.css.map",
-    "main.c3c449ab.js.map": "/site-petrova-julia/static/js/main.c3c449ab.js.map"
+    "main.48f798f0.js.map": "/site-petrova-julia/static/js/main.48f798f0.js.map"
   },
   "entrypoints": [
     "static/css/main.ecf5935c.css",
-    "static/js/main.c3c449ab.js"
+    "static/js/main.48f798f0.js"
   ]
 }
