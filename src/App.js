@@ -10,10 +10,10 @@ import { CurseWorkPage } from "./pages/curse-work-page/curse-work-page";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/site-petrova-julia/">
             <Routes>
-                <Route exact path="/site-petrova-julia" element={<MainPage />} />
-                <Route path="/site-petrova-julia/homeworks" element={<Homeworks />} />
+                <Route exact path="/" element={<MainPage />} />
+                <Route path="/homeworks" element={<Homeworks />} />
                 <Route path="/homework-first" element={<HomeworkFirstPage />} />
                 <Route path="/homework-second" element={<HomeworkSecondPage />} />
                 <Route path="/homework-third" element={<HomeworkThirdPage />} />
