@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
+import {useNavigate} from 'react-router-dom'
 
 const Menu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,6 +8,8 @@ const Menu = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    let navigate = useNavigate()
 
     return (
         <header>
@@ -22,7 +25,7 @@ const Menu = () => {
                 <nav>
                     <ul className="menu">
                         <li id={0}><a href="/site-petrova-julia">Главная</a></li>
-                        <li id={1}><a href="/site-petrova-julia/homeworks">Домашние работы</a></li>
+                        <li id={1} onClick={()=> navigate('/site-petrova-julia/homeworks')}></li>
                         <li id={2}><a href="/site-petrova-julia/curse-work">Курсовая работа</a></li>
                     </ul>
                 </nav>
