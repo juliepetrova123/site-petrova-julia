@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { MainPage } from './pages/main-page/main-page';
 import { Homeworks } from './pages/homeworks-page/homeworks-page';
 import { HomeworkFirstPage } from './pages/homework-first-page/homework-first-page';
@@ -10,9 +10,9 @@ import { CurseWorkPage } from "./pages/curse-work-page/curse-work-page";
 
 const App = () => {
     return (
-        <Router basename="/site-petrova-julia">
+        <Router>
             <Routes>
-                <Route exact path="/site-petrova-julia" element={<MainPage />} />
+                <Route path="/" element={<MainPage />} />
                 <Route path="/homeworks" element={<Homeworks />} />
                 <Route path="/homework-first" element={<HomeworkFirstPage />} />
                 <Route path="/homework-second" element={<HomeworkSecondPage />} />
