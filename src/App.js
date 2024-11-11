@@ -10,7 +10,7 @@ import { CurseWorkPage } from "./pages/curse-work-page/curse-work-page";
 
 const App = () => {
     return (
-        <HashRouter basename="/site-petrova-julia">
+        <HashRouter basename="https://juliepetrova123.github.io/site-petrova-julia">
             <Routes>
                 <Route path="/" element={<MainPage />} />
                 <Route path="/homeworks" element={<Homeworks />} />
