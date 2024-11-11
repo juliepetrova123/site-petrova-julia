@@ -12,7 +12,7 @@ const App = () => {
     return (
         <HashRouter basename="https://juliepetrova123.github.io/site-petrova-julia">
             <Routes>
-                <Route path="/" element={<MainPage />} />
+                <Route exact path="/" element={<MainPage />} />
                 <Route path="/homeworks" element={<Homeworks />} />
                 <Route path="/homework-first" element={<HomeworkFirstPage />} />
                 <Route path="/homework-second" element={<HomeworkSecondPage />} />
