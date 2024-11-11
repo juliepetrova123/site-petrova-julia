@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter, Route, Routes, Link } from 'react-router-dom';
 import { MainPage } from './pages/main-page/main-page';
 import { Homeworks } from './pages/homeworks-page/homeworks-page';
 import { HomeworkFirstPage } from './pages/homework-first-page/homework-first-page';
@@ -10,7 +10,7 @@ import { CurseWorkPage } from "./pages/curse-work-page/curse-work-page";
 
 const App = () => {
     return (
-        <Router>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<MainPage />} />
                 <Route path="/homeworks" element={<Homeworks />} />
@@ -19,7 +19,7 @@ const App = () => {
                 <Route path="/homework-third" element={<HomeworkThirdPage />} />
                 <Route path="/curse-work" element={<CurseWorkPage />} />
             </Routes>
-        </Router>
+        </HashRouter>
     );
 };
 
