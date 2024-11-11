@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { MainPage } from './pages/main-page/main-page';
 import { Homeworks } from './pages/homeworks-page/homeworks-page';
 import { HomeworkFirstPage } from './pages/homework-first-page/homework-first-page';
@@ -10,14 +10,14 @@ import { CurseWorkPage } from "./pages/curse-work-page/curse-work-page";
 
 const App = () => {
     return (
-        <Router >
+        <Router basename="/site-petrova-julia">
             <Routes>
-                <Route path="/site-petrova-julia/" element={<MainPage />} />
-                <Route path="/site-petrova-julia/homeworks" element={<Homeworks />} />
-                <Route path="/site-petrova-julia/homework-first" element={<HomeworkFirstPage />} />
-                <Route path="/site-petrova-julia/homework-second" element={<HomeworkSecondPage />} />
-                <Route path="/site-petrova-julia/homework-third" element={<HomeworkThirdPage />} />
-                <Route path="/site-petrova-julia/curse-work" element={<CurseWorkPage />} />
+                <Route exact path="/site-petrova-julia" element={<MainPage />} />
+                <Route path="/homeworks" element={<Homeworks />} />
+                <Route path="/homework-first" element={<HomeworkFirstPage />} />
+                <Route path="/homework-second" element={<HomeworkSecondPage />} />
+                <Route path="/homework-third" element={<HomeworkThirdPage />} />
+                <Route path="/curse-work" element={<CurseWorkPage />} />
             </Routes>
         </Router>
     );
