@@ -10,7 +10,7 @@ import { CurseWorkPage } from "./pages/curse-work-page/curse-work-page";
 
 const App = () => {
     return (
-        <Router basename={"/site-petrova-julia"}>
+        <Router basename={"/site-petrova-julia/"}>
             <Routes>
                 <Route path="/" element={<MainPage />} />
                 <Route path="/homeworks" element={<Homeworks />} />
